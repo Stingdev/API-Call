@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lora:wght@700&family=Open+Sans:ital,wght@1,500&family=Oswald&family=Poppins&family=Raleway&family=Roboto+Mono&display=swap');
+.searchdiv{
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin: 11px;
+  box-shadow: 0 5px 20px #e1e1e1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 5);
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  background-color: #2A9D8F;
+
+}
+.searchform{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+.searchinput{
+  border-bottom: 2px solid purple;
+  border-top: 1px solid grey;
+  border-left: 1px solid gray;
+  border-right: 1px solid grey;
+  border-radius: 3px;
+  margin-bottom: 1px;
+  background-color: #f4a261;}
+.ImageList{
+  margin: 20px 20px;
+  columns: 250px 4;
+  column-gap: 15px;
+
+}
+.ImageLıstImg{
+  
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 5);
+  margin-bottom: 10px;
+}
+
+.ImageLıstImg:hover{
+  transition: all 0.41s;
+  transform: scale(1.03);
+}
